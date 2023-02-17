@@ -12,7 +12,7 @@ int main(void)
 	for (i = 0; i < 56; i++)
 	{
 		putchar(msg[i]);
-		putchar('\n')
+		putchar('\n');
 	}
 
 	return (0);
