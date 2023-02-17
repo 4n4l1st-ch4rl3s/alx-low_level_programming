@@ -6,9 +6,12 @@
 
 int main(void)
 {
-	for (int x = 'z'; x <= 'a'; x++)
+	char msg[] = "zyxwvutsrqponmlkjihgfedcba";
+	int x;
+
+	for (x = 0; x <= 26; x++)
 	{
-		putchar(x);
+		putchar(msg[x]);
 	}
 
 	putchar('\n');
