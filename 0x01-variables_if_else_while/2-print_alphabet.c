@@ -8,6 +8,7 @@
 int main(void)
 {
 	char msg[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
 	for (i = 0; i < 26; i++)
 	{
