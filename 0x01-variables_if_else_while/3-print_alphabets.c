@@ -9,7 +9,7 @@ int main(void)
 	char msg[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; i < 56; i++)
+	for (i = 0; i < 52; i++)
 	{
 		putchar(msg[i]);
 	}
