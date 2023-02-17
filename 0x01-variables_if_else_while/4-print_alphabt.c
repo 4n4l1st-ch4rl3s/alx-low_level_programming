@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	char msg[] = "abcdfgijklmnopqrstuvwxyz";
+	char msg[] = "abcdfghijklmnoprstuvwxyz";
 	int i;
 
 	for(i = 0; i < 24; i++)
