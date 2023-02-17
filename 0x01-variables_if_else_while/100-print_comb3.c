@@ -6,15 +6,20 @@
 
 int main(void)
 {
-	int x;
+	int x,y;
 
-	for (x = 48; x < 58; x++)
+	for (x = 0; x < 9; x++)
 	{
-		putchar(x);
-		if (x < 57)
+		for (y = 0; y < 10; y++)
 		{
-			putchar(44);
-			putchar(32);
+			putchar(x % 10 + '0');
+			putchar(y % 10 + '0');
+
+			if (x == 8 && y == 9)
+				continue;
+
+			putchar(',');
+			putchar(' ');
 		}
 	}
 
