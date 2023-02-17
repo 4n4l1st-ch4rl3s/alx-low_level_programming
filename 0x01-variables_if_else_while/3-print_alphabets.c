@@ -7,8 +7,9 @@
 int main(void)
 {
 	char msg[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	int i;
 
-	for (int i = 0; i < 56; i++)
+	for (i = 0; i < 56; i++)
 	{
 		putchar(msg[i]);
 		putchar('\n')
