@@ -7,14 +7,13 @@
 
 int main(void)
 {
-	for (int x = 'a'; x <= 'z'; x++)
+	char msg[] = "abcdefghijklmnopqrstuvwxyz";
 
+	for (i = 0; i < 26; i++)
 	{
-
-		putchar(x);
-		putchar('\n');
-
+		putchar(msg[i]);
 	}
 
+	putchar('\]n');
 	return (0);
 }
