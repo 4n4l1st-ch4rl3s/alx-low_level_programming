@@ -17,7 +17,7 @@ int main(void)
 			break;
 
 		if ((y % 2) == 0)
-			tot_sum += y;
+			x += y;
 
 		fib1 = fib2;
 		fib2 = y;
