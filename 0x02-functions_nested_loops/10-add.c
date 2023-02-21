@@ -8,6 +8,6 @@ int add(int x, int y)
 {
 	int result;
 
-	result = a + b;
+	result = x + y;
 	return result;
 }
