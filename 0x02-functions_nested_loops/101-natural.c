@@ -8,11 +8,11 @@ int main(void)
 {
 	int x, y = 0;
 
-	for (i = 0; i < 1024; i++)
+	for (x = 0; x < 1024; x++)
 	{
-		if ((i % 3) == 0 || (i % 5) == 0)
-			sum += i;
+		if ((x % 3) == 0 || (x % 5) == 0)
+			y += i;
 	}
-	printf("%d\n", sum);
+	printf("%d\n", y);
 	return (0);
 }
