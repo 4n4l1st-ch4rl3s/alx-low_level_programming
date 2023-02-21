@@ -1,7 +1,9 @@
 #include<stdio.h>
+
 /**
- *  main: Entry Point
- *  Return: 0
+ *  main: Entry point
+ *  prints provided argv
+ *  Return: 0 (on sucess)
  */
 
 int main(void)
