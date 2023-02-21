@@ -18,7 +18,7 @@ int main(void)
 		fib2 = y;
 
 		if (x == 49)
-			print("\n");
+			printf("\n");
 		else
 			printf(", ");
 	}
