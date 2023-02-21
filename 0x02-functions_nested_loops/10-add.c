@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *  add - adds two numbers
- *  @x: variable 1
- *  @y: variable 2
- *  returns: result
+ *  add - prints the sun of ints
+ *  @x: int 1
+ *  @y: int 2
+ *  Return: result
  */
 
 int add(int x, int y)
