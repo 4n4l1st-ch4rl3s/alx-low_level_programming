@@ -1,20 +1,25 @@
 #include "main.h"
 
 /**
- *  main - Entry point
+ *  print_alphabet - prints alphabets
  *  Return: 0
+ *  main - Entry point
  */
 
-char print_alphabet(void);
+void print_alphabet(void);
 
-char print_alphabet()
+void print_alphabet(void)
 {
-	for (x = 'a'; x<= 'z'; x++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
 		_putchar(x);
 	}
-
+	return (0);
 }
+
+/**
+ * main - Entry point
+ */
 
 int main(void)
 {
