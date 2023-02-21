@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- *  main: Entry point
- *  prints provided argv
+ *  main - Entry point
+ *  Description: prints provided argv
  *  Return: 0 (on sucess)
  */
 
 int main(void)
 {
-	printf("_putchar");
+	_putchar("_putchar\n");
 	return (0);
 }
