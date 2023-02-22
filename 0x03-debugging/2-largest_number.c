@@ -8,21 +8,21 @@
  * Return: largest number
  */
 
-int largest_number(int a, int b, int c)
+int largest_number(int x, int y, int z)
 {
 	int largest;
 
-	if (a >= b && a >= c)
+	if (x >= y && x >= z)
 	{
-		largest = a;
+		largest = x;
 	}
-	else if (b >= a && b >= a)
+	else if (y >= z && y >= x)
 	{
-		largest = b;
+		largest = y;
 	}
 	else
 	{
-		largest = c;
+		largest = z;
 	}
 
 	return (largest);
