@@ -2,19 +2,22 @@
 
 /**
  * print_triangle - prints triangles
+ * @size: var
  */
 
 void print_triangle(int size)
 {
 	int x, y, z;
 
-	if(size <= 0)
+	if (size <= 0)
+	{
 		_putchar('\n');
+	}
 	else
 	{
-		for ( y = 0; y <= (size - 1); y++)
+		for (y = 0; y <= (size - 1); y++)
 		{
-			for (x = 0; x < (size -1) - y; x++)
+			for (x = 0; x < (size - 1) - y; x++)
 			{
 				_putchar(' ');
 			}
