@@ -6,12 +6,12 @@
 
 void print_most_numbers(void)
 {
-	char dig[] = "01356789";
-	int i;
+	int x;
 
-	for (i = 0; i <= 9; i++)
+	for (x = 0; x <= 9; x++)
 	{
-		_putchar(dig[i]);
+		if (x == 2 || x == 4)
+			continue;
+		_putchar(x + '0');
 	}
-	_putchar('\n');
 }
