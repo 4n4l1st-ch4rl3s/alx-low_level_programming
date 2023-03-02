@@ -3,7 +3,7 @@
 /**
  * rot13 - rotates chars 13 times.
  * @c: param1
- * Return: s
+ * Return:c 
  */
 
 char *rot13(char *c)
