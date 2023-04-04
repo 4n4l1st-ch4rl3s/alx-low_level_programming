@@ -4,3 +4,5 @@
 2-strchr
 4-strpbrk
 5-strstr
+_putchar.c
+7-print_chessboard
