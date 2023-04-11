@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 
 /**
  *  main - Entry Point
@@ -9,7 +9,7 @@
  *  Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv)
 {
 	if (argc >= 0)
 		printf("%s\n", argv[0]);
