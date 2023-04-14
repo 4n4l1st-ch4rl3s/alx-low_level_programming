@@ -6,7 +6,7 @@
  * _realloc - Entry point
  * @ptr: first var pointer
  * @old_size: sec var
- * @new_ptr: third var
+ * @new_size: third var
  * Return: new_ptr
  */
 
