@@ -1,0 +1,34 @@
+#include "main.h"
+#include <stdlib.h>
+#include <string.h>
+
+/**
+ * string_nconcat - Entry point
+ * @s1: var 1 input
+ * @s2: var 2 dest
+ * @n: length
+ * Return: result
+ */
+
+char *string_nconcat(char *s1, char *s2, unsigned int n)
+{
+	unsigned int s1_len, s2_len;
+	char *result;
+
+	s1 = (s1 != NULL) ? s1 : "";
+	s2 = (s2 != NULL) ? s2 : "";
+
+	s1_len = strlen(s1);
+	s2_len = strlen(s2);
+
+	if (n >= s2_len)
+		n = s2_len;
+	result = malloc(sizeof(char) * (s1_len * n + 1));
+
+	if (result == NULL)
+		return (NULL);
+	strcpy(result, s1);
+	strncat(result, s2, n);
+	result[s1_len + n] = '\0';
+	return (result);
+}
