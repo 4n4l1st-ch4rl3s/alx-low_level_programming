@@ -6,14 +6,13 @@
  * @array: Pointer 1
  * @size: size or array
  * @action: funcion pointer
- * @int: var type for function
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i;
 
-	if(!array || !action)
+	if (!array || !action)
 		return;
 	for (i = 0; i < size; i++)
 		action(array[i]);
